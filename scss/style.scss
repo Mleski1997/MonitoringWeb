@@ -1,3 +1,5 @@
+@import './colors';
+
 * {
 	box-sizing: border-box;
 	padding: 0px;
@@ -18,7 +20,7 @@ body {
 .underline {
 	height: 5px;
 	width: 10%;
-	background-color: red;
+	background-color: var(--red-color);
 }
 
 .hero-shadow {
@@ -70,7 +72,7 @@ body {
 	background-position: center;
 	// background-position: -30% 50%;
 	z-index: 1;
-	color: rgb(255, 255, 255);
+	color: var(--main-color);
 	text-transform: uppercase;
 
 	.welcome-title {
@@ -83,13 +85,20 @@ body {
 
 	.btn {
 		padding: 1.6rem 4rem;
-		font-size: 2rem;
+		font-size: 2rem;1
 		width: 20rem;
 		border-radius: 15px;
 	}
 }
 
 .aboutus {
+	background: rgba(0,0,0,.2);
+	background-image: 
+    linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)),
+    url('../img/tło.png');
+	background-position: center;
+	background-size: cover;
+
 	.aboutus-box {
 		text-align: left;
 
@@ -108,7 +117,7 @@ body {
 	background-color: rgb(239, 238, 238);
 
 	.services-box {
-		background-color: white;
+		background-color: var(--main-color);
 		box-shadow: 0px 0px 10px rgba(1, 1, 1, 0.5);
 
 		i {
@@ -122,15 +131,15 @@ body {
 	}
 
 	.services-box:hover {
-		background-color: red;
-		color: white;
+		background-color: var(--red-color);
+		color: var(--main-color);
 		transition: 0.4s;
 	}
 }
 
 .contact {
 	color: white;
-	background-color: rgb(25, 24, 24);
+	background-color: var(--secondary-color);
 
 	.form-control {
 		font-size: 2rem;

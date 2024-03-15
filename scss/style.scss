@@ -85,17 +85,15 @@ body {
 
 	.btn {
 		padding: 1.6rem 4rem;
-		font-size: 2rem;1
+		font-size: 2rem;
 		width: 20rem;
 		border-radius: 15px;
 	}
 }
 
 .aboutus {
-	background: rgba(0,0,0,.2);
-	background-image: 
-    linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)),
-    url('../img/tło.png');
+	background: rgba(0, 0, 0, 0.2);
+	background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url('../img/tło.png');
 	background-position: center;
 	background-size: cover;
 

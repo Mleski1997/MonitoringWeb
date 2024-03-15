@@ -137,15 +137,21 @@
                 <p class="section-title">Napisz Do Nas</p>
                 <div class="row">
                     <div class="col-lg-9 my- m-lg-0">
-                        <form>
+                        <form action="https://formsubmit.co/michal.leski97@gmail.com" method="POST" >
+
                             <div class="input-group mb-3">
-                                <input type="text" class="form-control" placeholder="Imię">
+                                <input
+                                 id="mail"
+                                 name="email"
+                                 type="email"
+                                 class="form-control" placeholder="Twój e-mail">
                             </div>
                             <div class="input-group mb-3">
-                                <input type="text" class="form-control" placeholder="Adres mailowy">
-                            </div>
-                            <div class="input-group mb-3">
-                                <textarea rows="6" class="form-control" placeholder="Treść Wiaodmości"></textarea>
+                                <textarea
+                                 id="msg"
+                                 name="msg"
+                                 rows="6" 
+                                 class="form-control" placeholder="Treść Wiaodmości"></textarea>
                             </div>
                             <input type="submit" value="Wyślij" class="btn btn-light px-4 py-2 submit-btn">
                         </form>

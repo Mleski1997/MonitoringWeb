@@ -80,19 +80,16 @@ body {
 .home .welcome-title {
   font-weight: bold;
 }
-.home .welcome-text {
-  font-size: 1.6rem;
-}
 .home .btn {
-  padding: 1.6rem 4rem;
+  padding: 1.2rem 2rem;
   font-size: 2rem;
-  width: 20rem;
+  width: 15rem;
   border-radius: 15px;
 }
 
 .aboutus {
   background: rgba(0, 0, 0, 0.2);
-  background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url("../img/background.png");
+  background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url("../img/Background.png");
   background-position: center;
   background-size: cover;
 }
@@ -104,6 +101,7 @@ body {
 }
 .aboutus ul li {
   margin-top: 2rem;
+  font-weight: bold;
 }
 
 .services {
@@ -165,9 +163,9 @@ body {
   color: rgb(170, 14, 40);
 }
 
-@media (max-width: 576px) {
-  .aboutus .aboutus-box .aboutus-list {
-    font-size: 1.6rem;
+@media (max-width: 992px) {
+  .home {
+    background-image: url("../img/hero.jpg");
   }
 }
 @media (max-width: 1200px) {

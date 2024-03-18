@@ -93,6 +93,9 @@ body {
   background-position: center;
   background-size: cover;
 }
+.aboutus h3 {
+  font-weight: bold;
+}
 .aboutus .aboutus-box {
   text-align: left;
 }

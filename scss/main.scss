@@ -90,6 +90,10 @@ body {
 	background-position: center;
 	background-size: cover;
 
+	h3 {
+		font-weight: bold;
+	}
+
 	.aboutus-box {
 		text-align: left;
 
@@ -103,6 +107,8 @@ body {
 			font-weight: bold;
 		}
 	}
+
+	
 }
 
 .services {
@@ -120,6 +126,8 @@ body {
 			font-size: 2rem;
 			margin-bottom: 2rem;
 		}
+
+
 	}
 
 	.services-box:hover {

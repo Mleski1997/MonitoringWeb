@@ -195,6 +195,12 @@ body {
 	.home {
 		background-image: url('../img/hero.jpg');
 	}
+
+	.cities-box {
+		.card {
+			min-height: 150px;
+		}
+	}
 }
 
 @media (max-width: 1200px) {

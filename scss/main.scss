@@ -123,8 +123,9 @@ body {
 
 .cities-box {
 	.card {
+		position: relative;
 		border-radius: 15px;
-		min-height: 400px;
+		min-height: 300px;
 		margin-top: 2rem;
 		z-index: 0;
 

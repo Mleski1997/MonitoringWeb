@@ -25,8 +25,6 @@ body {
 	max-width: 1200px;
 }
 
-
-
 [id] {
 	scroll-margin-top: 80px;
 }
@@ -121,19 +119,17 @@ body {
 			font-weight: bold;
 		}
 	}
+}
 
+.cities-box {
+	.card {
+		border-radius: 15px;
+		min-height: 400px;
+		margin-top: 2rem;
+		z-index: 0;
 
-	.cities-box {
-		.card {
-			border-radius: 15px;
-			min-height: 400px;
-			margin-top: 2rem;
-			z-index: 0;
-
-			h4 {
-				font-size: 2rem;
-
-			}
+		h4 {
+			font-size: 2rem;
 		}
 	}
 }

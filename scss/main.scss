@@ -1,4 +1,8 @@
-@import './colors';
+:root {
+	--main-color: #ffffff;
+	--secondary-color: #000000;
+	--red-color: #ff0000aa;
+}
 
 * {
 	box-sizing: border-box;
@@ -15,6 +19,16 @@ body {
 	font-family: 'Poppins', sans-serif;
 	font-size: 1.6rem;
 	z-index: -1;
+}
+
+.container {
+	max-width: 1200px;
+}
+
+
+
+[id] {
+	scroll-margin-top: 80px;
 }
 
 .underline {
@@ -108,7 +122,20 @@ body {
 		}
 	}
 
-	
+
+	.cities-box {
+		.card {
+			border-radius: 15px;
+			min-height: 400px;
+			margin-top: 2rem;
+			z-index: 0;
+
+			h4 {
+				font-size: 2rem;
+
+			}
+		}
+	}
 }
 
 .services {
@@ -126,8 +153,6 @@ body {
 			font-size: 2rem;
 			margin-bottom: 2rem;
 		}
-
-
 	}
 
 	.services-box:hover {
@@ -156,20 +181,8 @@ body {
 }
 
 .thanks {
-	position: relative;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	font-size: 2.2rem;
+	font-size: 2rem;
 
-	.thanks-img {
-		position: relative;
-		height: 50vh;
-		width: 100vw;
-		background-image: url('../img/thanks.png');
-		background-size: auto;
-		background-repeat: no-repeat;
-	}
 	a {
 		text-decoration: none;
 		color: var(--secondary-color);

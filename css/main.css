@@ -187,6 +187,9 @@ body {
   .cities-box .card {
     min-height: 150px;
   }
+  .services .services-box {
+    min-height: 150px;
+  }
 }
 @media (max-width: 1200px) {
   .services .services-box {

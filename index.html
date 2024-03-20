@@ -178,15 +178,19 @@
                                     placeholder="Twój e-mail">
                             </div>
                             <div class="input-group mb-3">
-                                <input required id="phoneNumber" name="phoneNumber" type="phoneNumber"
-                                    class="form-control" maxlength="9" placeholder="Twój numer telefonu">
+                                <input required id="phoneNumber" name="phoneNumber" type="tel" class="form-control"
+                                    maxlength="9" placeholder="Twój numer telefonu">
                             </div>
                             <div class="input-group mb-3">
                                 <textarea required id="msg" name="msg" rows="6" class="form-control"
                                     placeholder="Treść Wiaodmości"></textarea>
                             </div>
-                            <input type="hidden" id="consentField" name="constent" value="  Wyrażam zgodę na prztwarzanie moich danych osobowych zawartych w niniejszym formularzu,
-                            w celu otrzymania odpowiedzi na przesłaną przeze mnie powyżej informacje / pytanie.">
+
+                            <input type="hidden" name="accept" value=" Wyrażam zgodę na prztwarzanie moich danych osobowych zawartych w niniejszym formularzu,
+                                w celu otrzymania odpowiedzi na przesłaną przeze mnie powyżej informacje / pytanie.">
+
+
+
 
                             <input type="hidden" name="_next" value="https://mleski1997.github.io/MonitoringWeb/thanks">
                             <input type="submit" value="Wyślij" class="btn btn-light px-4 py-2 submit-btn">

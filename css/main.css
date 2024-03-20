@@ -115,6 +115,10 @@ body {
   font-weight: bold;
 }
 
+.city-list ul {
+  list-style-type: none;
+}
+
 .cities-box .card {
   position: relative;
   border-radius: 15px;
@@ -159,6 +163,9 @@ body {
 }
 .contact .contact-info {
   font-size: 2rem;
+}
+.contact .form-accept {
+  display: none;
 }
 
 .thanks {

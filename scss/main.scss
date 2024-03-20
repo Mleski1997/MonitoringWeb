@@ -35,6 +35,7 @@ body {
 	background-color: var(--red-color);
 }
 
+
 .hero-shadow {
 	position: absolute;
 	top: 0;
@@ -121,6 +122,12 @@ body {
 	}
 }
 
+.city-list {
+	ul {
+		list-style-type: none;
+	}
+}
+
 .cities-box {
 	.card {
 		position: relative;
@@ -175,6 +182,12 @@ body {
 	.contact-info {
 		font-size: 2rem;
 	}
+
+	.form-accept {
+		display: none;
+	}
+	
+	
 }
 
 .thanks {

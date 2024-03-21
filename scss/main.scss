@@ -35,6 +35,9 @@ body {
 	background-color: var(--red-color);
 }
 
+h3 {
+	font-weight: bold;
+}
 
 .hero-shadow {
 	position: absolute;
@@ -103,10 +106,6 @@ body {
 	background-position: center;
 	background-size: cover;
 
-	h3 {
-		font-weight: bold;
-	}
-
 	.aboutus-box {
 		text-align: left;
 
@@ -114,12 +113,31 @@ body {
 			font-size: 1.6rem;
 		}
 	}
+}
+
+.aboutus,
+.city {
+	h3 {
+		font-weight: bold;
+	}
+
 	ul {
 		li {
 			margin-top: 2rem;
 			font-weight: bold;
 		}
 	}
+}
+
+.city {
+	position: relative;
+	background-image: url("../img/camera1.jpg");
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	color: var(--main-color);
+	z-index: 0;
+	
 }
 
 .city-list {
@@ -166,6 +184,12 @@ body {
 	}
 }
 
+.city-list {
+	i {
+		color: var(--red-color);
+	}
+}
+
 .contact {
 	color: white;
 	background-color: var(--secondary-color);
@@ -186,8 +210,6 @@ body {
 	.form-accept {
 		display: none;
 	}
-	
-	
 }
 
 .thanks {

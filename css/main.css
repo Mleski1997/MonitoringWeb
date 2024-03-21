@@ -35,6 +35,10 @@ body {
   background-color: var(--red-color);
 }
 
+h3 {
+  font-weight: bold;
+}
+
 .hero-shadow {
   position: absolute;
   top: 0;
@@ -101,18 +105,31 @@ body {
   background-position: center;
   background-size: cover;
 }
-.aboutus h3 {
-  font-weight: bold;
-}
 .aboutus .aboutus-box {
   text-align: left;
 }
 .aboutus .aboutus-box .aboutus-list {
   font-size: 1.6rem;
 }
-.aboutus ul li {
+
+.aboutus h3,
+.city h3 {
+  font-weight: bold;
+}
+.aboutus ul li,
+.city ul li {
   margin-top: 2rem;
   font-weight: bold;
+}
+
+.city {
+  position: relative;
+  background-image: url("../img/camera1.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  color: var(--main-color);
+  z-index: 0;
 }
 
 .city-list ul {
@@ -148,6 +165,10 @@ body {
   background-color: var(--red-color);
   color: var(--main-color);
   transition: 0.4s;
+}
+
+.city-list i {
+  color: var(--red-color);
 }
 
 .contact {
